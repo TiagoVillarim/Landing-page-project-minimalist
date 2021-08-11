@@ -1,0 +1,287 @@
+.container-header {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0,0,0, 0.3);
+
+
+  h1 {
+    display: flex;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    border-right: 1px solid rgb(87, 87, 87);
+    padding-right: 20px;
+    cursor: default;
+    animation-name: left-right;
+    animation-duration: 0.7s;
+  }
+
+  a {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+  }
+
+  .signIn {
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0, 0);
+    transition: 0.3s;
+    animation-name: right-left;
+    animation-duration: 0.7s;
+  }
+
+  .signIn:hover {
+    border-bottom: 1px solid rgba(0,0,0, 1);
+  }
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../Assets/Images/minimalist.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-sectionOne {
+  display: flex;
+  
+
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100% auto 0 auto;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 100;
+      cursor: default;
+      animation-name: up-down;
+      animation-duration: 1s;
+    }
+
+    p {
+      margin: 0 auto 0 auto;
+      font-size: 20px;
+      font-weight: 100;
+      cursor: default;
+      animation-name: up-down;
+      animation-duration: 0.7s;
+    }
+
+    a {
+      margin: 250% auto 30% auto;
+      font-size: 20px;
+      font-weight: 100;
+      color: black;
+      transition: 0.4s;
+      animation-name: up-down;
+      animation-duration: 0.6s;
+    }
+
+    a:hover {
+      transform:scale(0.7);
+    }
+  }
+
+}
+
+.container-two {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  section {
+    display: flex;
+    width: 100%;
+  }
+
+  .block-1 {
+    background-image: url("../../Assets/Images/samurai.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 930px;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 100;
+    }  
+  }
+
+  .samurai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 930px;
+    height: 70vh;
+  }
+  .samurai-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 250px auto 0 auto;
+    padding-bottom: 40px;
+    font-size: 30px;
+  }
+}
+
+.button-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.2);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button-more:hover {
+  box-shadow: 2px 2px 2px 2px  rgba(0,0,0, 0);
+  color:rgb(250, 83, 83);
+}
+
+
+.container-Three {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 20%;
+  }
+
+  .block-2 {
+    background-image: url("../../Assets/Images/food.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    opacity: 0.8;
+
+    h1 {
+      font-size: 50px;
+    }  
+  }
+}
+
+.container-Four {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.block-3 {
+  background-image: url("../../Assets/Images/music.png");
+  background-position: center left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 930px;
+  opacity: 0.8;
+
+  h1 {
+    font-size: 40px;
+  }  
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 930px;
+  height: 70vh;
+}
+.music-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.container-Five {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .anime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 20%;
+  }
+
+  .block-4 {
+    background-image: url("../../Assets/Images/anime.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    opacity: 0.8;
+
+    h1 {
+      font-size: 50px;
+    }  
+  }
+}
