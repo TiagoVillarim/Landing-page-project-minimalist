@@ -1,4 +1,4 @@
-This is a project for pratice skilss of css, html, java script, react JS and node js, its not finished yet.
+This is a project made during Gama Academy Hiring Coders for pratice skilss of css, html, java script, react JS and node js, its not finished yet.
 
 
 ![image](https://user-images.githubusercontent.com/64990900/129087552-fa3aba54-73a9-4571-8bf7-15c112835f0b.png)
