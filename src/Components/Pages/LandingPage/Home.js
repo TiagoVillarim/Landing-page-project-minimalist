@@ -2,6 +2,7 @@ import HomeStyle from '../Styles/Home.scss';
 import {FaAngleDoubleDown} from 'react-icons/fa';
 import GlobalStyle from '../../../Global.scss';
 import keyframes from '../Styles/keyframes.scss';
+import Responsive from '../../Pages/Styles/Responsive.scss';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -22,7 +23,7 @@ export default function Home () {
           <div className="section-title">
             <h1>概念</h1>
             <p>Minimalist concept</p>
-            <a href="#sectionTwo"><FaAngleDoubleDown/></a>
+            <a href="#sectionTwo" className="arrow"><FaAngleDoubleDown/></a>
           </div>
         </section>
       </body>

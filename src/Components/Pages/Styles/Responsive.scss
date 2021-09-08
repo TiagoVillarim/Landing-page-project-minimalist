@@ -1,0 +1,24 @@
+@media(max-width: 400px){
+  .arrow {
+    display: none;
+  }
+
+  .container-header {
+    display: flex;
+
+    h1 {
+      margin-right: 50%;
+      position: absolute;
+      top: 7px;
+      left: 25px;
+    }
+
+    a {
+      margin-left: 50%;
+      position: absolute;
+      top: 33px;
+      right: 35px;
+    }
+  }
+
+}
